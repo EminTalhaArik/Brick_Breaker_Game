@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PaddleObject : MonoBehaviour
+public class PaddleObject : Object
 {
     [Header("Paddle Object")]
     [SerializeField] private float PaddleSpeed;
@@ -10,6 +10,10 @@ public class PaddleObject : MonoBehaviour
     [Tooltip("Screen Edges")]
     [SerializeField] private float LeftScreenEdge;
     [SerializeField] private float RightScreenEdge;
+
+    public override void HealthControl()
+    {
+    }
 
     public void PaddleMove()
     {

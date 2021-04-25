@@ -39,6 +39,11 @@ public class BallObject : Object
         GameObject.Find("GameManager").GetComponent<GameManager>().ControlBricks();
     }
 
+    public void SetBallSpeed(int ballSpeed)
+    {
+        myRigidbody.AddForce(Vector2.up * ballSpeed);
+    }
+
     public void ForceToBall(float BallForce)
     {
         myRigidbody.AddForce(transform.up * BallForce);

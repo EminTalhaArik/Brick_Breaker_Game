@@ -46,8 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myAudioSource: {fileID: 7882624986885707134}
   ClickSound: {fileID: 8300000, guid: 90e652f2db28be6429e6b9474b3f6518, type: 3}
-  NowSceneName: 0
-  NextSceneName: 1
+  NowSceneName: 1
+  NextSceneName: 2
   Bricks: []
   objectBall: {fileID: 0}
   endGamePanel: {fileID: 0}
@@ -62,11 +62,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
+  m_audioClip: {fileID: 8300000, guid: dcb991f28f1680649b4fd98cb3cf2968, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

@@ -97,6 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07c5144b6dfc866489943c6f90195e6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObjectHealth: 99
+  ObjectName: StandartPaddleObject
   PaddleSpeed: 10
   LeftScreenEdge: -7.625
   RightScreenEdge: 7.625

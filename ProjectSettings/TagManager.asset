@@ -8,6 +8,7 @@ TagManager:
   - Ball
   - Brick
   - GameManager
+  - MiniBall
   layers:
   - Default
   - TransparentFX
@@ -15,8 +16,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - MiniBall
+  - Ball
   - 
   - 
   - 

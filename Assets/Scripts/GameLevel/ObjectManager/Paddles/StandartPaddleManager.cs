@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PaddleManager : PaddleObject
+public class StandartPaddleManager : PaddleObject
 {
     private void FixedUpdate()
     {

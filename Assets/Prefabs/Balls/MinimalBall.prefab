@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 3080316841641399529}
   - component: {fileID: 3080316841641399533}
   - component: {fileID: 4503728052218719712}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MinimalBall
-  m_TagString: Ball
+  m_TagString: MiniBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
